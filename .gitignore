@@ -1,0 +1,9 @@
+bl31.bin
+fakescp_bl31.bin
+monitor-stub.o
+monitor-stub.bin
+u-boot.bin
+boot_package.fex
+
+*.o
+.depend
