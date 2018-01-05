@@ -1,0 +1,8 @@
+Hacks to make boot0 boot a mainline bl31+u-boot
+========================
+
+About the offset
+------------------------
+Boot0 should be written at 16 sector (well-known).
+
+Boot0 reads boot_package.fex from 32800 sector.
